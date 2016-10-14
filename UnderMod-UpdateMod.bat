@@ -2,8 +2,7 @@
 if not exist undertale.exe goto:errundertalenf
 if not exist data.win goto:errwindatanf
 
-WinPack data.win %cd%\mods
-cp %cd%\mods\data.win %cd%\data.win
+WinPack data.win %cd%
 start undertale
 exit
 

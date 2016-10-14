@@ -2,7 +2,7 @@
 if not exist undertale.exe goto:errundertalenf
 if not exist data.win goto:errwindatanf
 
-WinExtract data.win %cd%\mods
+WinExtract data.win %cd%
 start undertale
 exit
 
